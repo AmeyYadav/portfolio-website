@@ -1,0 +1,38 @@
+<section class="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
+  <div class="container mx-auto px-4 text-center">
+      <div class="max-w-3xl mx-auto">
+          <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              {{ .Site.Params.author }}
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-300">
+              {{ .Site.Params.description }}
+          </p>
+          <p class="text-lg mb-8 max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
+              I am a dedicated Software Engineer specializing in full-stack application development. I enjoy crafting responsive web solutions using modern technologies like Next.js, React, and Tailwind CSS. Currently, I am expanding my skills into mobile development with React Native and Expo, aiming to deliver comprehensive, user-centric software solutions.
+          </p>
+          
+          <!-- Code snippet -->
+          <div class="bg-gray-800 rounded-lg p-6 text-left max-w-md mx-auto mb-8">
+              <div class="text-gray-400 text-sm mb-2">welcome.ts</div>
+              <pre class="text-green-400 text-sm"><code>// app/api/welcome/route.js
+import { NextResponse } from "next/server";
+
+export async function GET() {
+return NextResponse.json(
+  { message: "Welcome to my portfolio!" }, 
+  { status: 200 }
+);
+}</code></pre>
+          </div>
+          
+          <div class="space-x-4">
+              <a href="#projects" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                  View My Work
+              </a>
+              <a href="#contact" class="inline-block border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
+                  Get In Touch
+              </a>
+          </div>
+      </div>
+  </div>
+</section>

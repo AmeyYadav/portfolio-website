@@ -1,0 +1,39 @@
+baseURL: 'https://beameyzing.com'
+languageCode: 'en-us'
+title: 'Amey Yadav'
+theme: ''
+
+params:
+  author: 'Amey Yadav'
+  description: 'Turning caffeine into clean code and creative ideas'
+  email: 'connect@beameyzing.com'
+  location: 'Pune-India'
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: 'Home'
+      url: '/'
+      weight: 1
+    - name: 'About'
+      url: '/#about'
+      weight: 2
+    - name: 'Projects'
+      url: '/#projects'
+      weight: 3
+    - name: 'Skills'
+      url: '/#skills'
+      weight: 4
+    - name: 'Experience'
+      url: '/#experience'
+      weight: 5
+    - name: 'Education'
+      url: '/#education'
+      weight: 6
+    - name: 'Contact'
+      url: '/#contact'
+      weight: 7

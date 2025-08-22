@@ -1,0 +1,33 @@
+categories:
+  - name: "Frontend"
+    items:
+      - name: "React"
+        icon: "fab fa-react"
+      - name: "Next.js"
+        icon: "fas fa-code"
+      - name: "Tailwind CSS"
+        icon: "fas fa-paint-brush"
+      - name: "TypeScript"
+        icon: "fab fa-js"
+  
+  - name: "Backend"
+    items:
+      - name: "Node.js"
+        icon: "fab fa-node-js"
+      - name: "Express"
+        icon: "fas fa-server"
+      - name: "MongoDB"
+        icon: "fas fa-database"
+      - name: "MySQL"
+        icon: "fas fa-database"
+  
+  - name: "Tools & Others"
+    items:
+      - name: "Git"
+        icon: "fab fa-git-alt"
+      - name: "Docker"
+        icon: "fab fa-docker"
+      - name: "AWS"
+        icon: "fab fa-aws"
+      - name: "Linux"
+        icon: "fab fa-linux"
